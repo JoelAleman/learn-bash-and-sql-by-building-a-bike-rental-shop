@@ -162,3 +162,11 @@ echo "$(echo ' M e ' | sed -E 's/^ *| *$//g')."
 __vsc_prompt_cmd_original
 5555
 pg_dump -cC --inserts -U freecodecamp bikes > bikes.sql
+git pull
+git orign
+git origin
+git pull origin main
+git config pull.rebase true
+git pull origin main
+git commit
+git add .
