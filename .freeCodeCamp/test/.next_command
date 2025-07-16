@@ -117,3 +117,5 @@ psql --username=freecodecamp --dbname=postgres
 ./bike-shop.sh
 ./bike-shop.sh
 ./bike-shop.sh
+1
+./bike-shop.sh
