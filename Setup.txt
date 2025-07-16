@@ -1,0 +1,11 @@
+If you leave your virtual machine, your database may not be saved. 
+You can make a dump of it by entering 
+  SELECT rental_id FROM rentals INNER JOIN customers USING(customer_id) WHERE phone='555-
+5555'
+  in a bash terminal (not the psql one). 
+It will save the commands to rebuild your database in bikes.sql. 
+The file will be located where the command was entered. 
+If it's anything inside the project folder, the file will be saved in the VM. 
+You can rebuild the database by entering 
+  psql -U postgres < bikes.sql  
+  in a terminal where the .sql file is.
