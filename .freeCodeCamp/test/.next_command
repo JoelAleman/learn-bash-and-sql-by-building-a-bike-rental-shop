@@ -127,3 +127,5 @@ echo '28 | Mountain'
 echo '28 | Mountain'
 __vsc_prompt_cmd_original
 ./bike-shop.sh
+./bike-shop.sh
+./bike-shop.sh
