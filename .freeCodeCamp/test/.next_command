@@ -170,3 +170,13 @@ git config pull.rebase true
 git pull origin main
 git commit
 git add .
+git push --set-upstream origin main
+git push --help
+__vsc_prompt_cmd_original
+git branch
+git fork
+git push origin main
+git pull
+git pull
+git pull
+git pull
